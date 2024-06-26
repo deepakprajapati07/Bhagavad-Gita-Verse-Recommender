@@ -1,7 +1,7 @@
 import streamlit as st
 from processing import recommend
 
-st.title("Bhagavad Gita Verse Recommender System")
+st.title("Bhagavad Gita Verse Recommender")
 user_input = st.text_area("Enter some text/keywords (in english only for best results)", "")
 
 options = {
